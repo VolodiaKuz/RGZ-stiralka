@@ -1,0 +1,36 @@
+body {
+  width: 500px;
+  height: 500px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  background-color: rgb(187, 186, 186);
+  /* background-image: url('./images/background2.png'); */
+  /* padding: 50px; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 1%;
+}
+
+img {
+  border-radius: 2%;
+  /* padding: 20px; */
+  margin: 20px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  width: 500px;
+  border-radius: 1%;
+}
